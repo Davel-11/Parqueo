@@ -1,0 +1,95 @@
+body {
+    font-family: Verdana, sans-serif; font-size:0.8em;
+    width: 1000px;
+    margin: 0 auto;
+    background: url("back.jpg");
+    background-size: 100% 100%;
+    
+}
+
+header, nav, aside, section, article, footer { 
+    border:1px solid grey; margin-top: 5px; margin-bottom: 5px; overflow: auto; 
+}
+
+.section {
+    background: white;
+    opacity: 0.90;
+}
+
+footer {
+    margin-bottom: 60px;   
+    padding-left: 15px;
+    
+    opacity: 0.90;
+    background: white;
+}
+
+#bien {
+    margin-left: 15px;    
+}
+
+
+header {   
+    margin-top: 15px;
+    text-align: center;
+    background: white;
+    opacity: 0.90;
+}
+
+nav {
+    background: white;
+    opacity: 0.90;
+}
+
+nav ul {
+    margin:0; padding:0; margin: 5px;
+    
+}
+
+nav ul li {
+    display:inline; margin:5px;
+}
+
+
+aside {
+     float: left;
+     width:22%;   
+     height: auto;
+     margin-left: 5px;
+     padding: 5px;
+
+     background: white;
+     
+    }
+    
+table, tr,td {
+   width:100%;
+   /*border: 2px solid black; */
+   padding: 1px;
+   background: white;
+   opacity: 0.95;
+   
+}
+
+#aside1, #aside2 {
+    width: 100%;
+    height: auto; 
+    /*border: 1px solid black;*/
+    background: white;
+     opacity: 0.95;
+    
+}
+
+article{ 
+    
+    width:74%; 
+    height: 465px;
+    float: left;  
+    margin-left: 5px;
+    padding: 5px;
+    background: white;
+    opacity: 0.90;
+}
+
+
+
